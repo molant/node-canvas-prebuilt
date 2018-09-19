@@ -1,7 +1,7 @@
 {
   "name": "canvas-prebuilt",
   "description": "Prebuilt versions of node-canvas as a drop-in replacement",
-  "version": "2.0.0-alpha.13",
+  "version": "2.0.0-alpha.14",
   "author": "Caleb Hearon <crh0872@gmail.com>",
   "browser": "canvas/browser.js",
   "keywords": [
@@ -30,8 +30,8 @@
   "main": "./canvas/index.js",
   "license": "MIT",
   "dependencies": {
-    "node-pre-gyp": "^0.10.0",
+    "detect-libc": "^1.0.3",
     "nan": "^2.9.2",
-    "detect-libc": "^1.0.3"
+    "node-pre-gyp": "^0.10.0"
   }
 }
