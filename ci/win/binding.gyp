@@ -23,6 +23,7 @@
       'defines': [
         'HAVE_GIF',
         'HAVE_JPEG',
+        'HAVE_RSVG',
         'HAVE_BOOLEAN', # or jmorecfg.h tries to define it
         '_USE_MATH_DEFINES' # for M_PI
       ],
